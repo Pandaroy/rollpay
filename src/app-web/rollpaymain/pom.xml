@@ -2,12 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.rollpay</groupId>
-    <artifactId>rollpay</artifactId>
+    <artifactId>app-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>app-web</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>rollpaymain</module>
-  </modules>
+  <artifactId>rollpaymain</artifactId>
+  <packaging>jar</packaging>
 </project>
